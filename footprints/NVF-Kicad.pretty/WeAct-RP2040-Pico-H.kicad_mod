@@ -1,4 +1,4 @@
-(footprint "WeAct-RP2040-Pico" (version 20211014) (generator pcbnew)
+(footprint "WeAct-RP2040-Pico-H" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
@@ -69,6 +69,10 @@
   (pad "38" thru_hole rect (at 8.774 -19.062) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 98772b5a-d7a6-450c-9034-d6d524a118f8))
   (pad "39" thru_hole oval (at 8.774 -21.602) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 0bc22ed0-bd19-4d27-8d5c-28f506b29d07))
   (pad "40" thru_hole circle (at 8.774 -24.142) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp be625cc8-866c-4099-a230-f046a764c066))
+  (pad "41" thru_hole rect (at -3.937 22.987 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 9d965528-59c2-4c1a-8f08-c969f7ab32ad))
+  (pad "42" thru_hole rect (at -1.397 22.987 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 305d6ffa-eefa-443f-bbde-7d514530d8cc))
+  (pad "43" thru_hole rect (at 1.143 22.987 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 03c453bb-ceb2-4f40-b66b-bcbd520ce828))
+  (pad "44" thru_hole rect (at 3.683 22.987 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp d6a3d0da-6db1-4775-ac34-1e881a2b9b4b))
   (model "${NVF_KICAD_DIR}/3dmodels/WeAct-RP2040-Pico.step"
     (offset (xyz -140.77 63.47 0))
     (scale (xyz 1 1 1))
