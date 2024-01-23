@@ -1,4 +1,4 @@
-(footprint "2x20V-H" (version 20221018) (generator pcbnew)
+(footprint "2.54mm2x20V-H" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -26.46) (layer "F.SilkS") hide

@@ -1,4 +1,4 @@
-(footprint "TS-1187A-B-A-B" (version 20221018) (generator pcbnew)
+(footprint "PushBtn_TS-1187A-B-A-B" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 0.032 3.163) (layer "F.SilkS") hide

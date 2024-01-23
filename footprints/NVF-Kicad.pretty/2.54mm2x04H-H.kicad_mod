@@ -1,4 +1,4 @@
-(footprint "2x04H-S" (version 20221018) (generator pcbnew)
+(footprint "2.54mm2x04H-H" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "2.54mm header 02x04")
   (tags "2x04 2.54")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 9c9fc666-0ac7-4d36-b96b-6c0cc121a042)
   )
-  (fp_text value "2x04H-S" (at 0 6.12 unlocked) (layer "F.Fab") hide
+  (fp_text value "2x04H-H" (at 0 6.12 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 872b33c2-ae95-4499-b925-2b65a3d1bd8d)
   )
@@ -103,9 +103,9 @@
   (pad "6" thru_hole oval (at 1.27 -1.27 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 7359608b-51d2-4843-a218-9bc5e19f22e6))
   (pad "7" thru_hole oval (at 3.81 1.27 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp b11ddd27-f014-4cc9-9706-998c01986471))
   (pad "8" thru_hole oval (at 3.81 -1.27 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 81acc26b-39e4-43b1-8cb4-3cbbad9eaa54))
-  (model ":KICAD7_3DMODEL_DIR:Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x04_P2.54mm_Horizontal.step"
-    (offset (xyz 3.8 -1.27 0))
+  (model ":KICAD7_3DMODEL_DIR:Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Horizontal.step"
+    (offset (xyz -3.8 -1.27 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 -90))
   )
 )

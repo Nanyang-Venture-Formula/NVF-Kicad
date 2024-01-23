@@ -1,6 +1,5 @@
-(footprint "TF-01A" (version 20221018) (generator pcbnew)
+(footprint "TFCard_TF-01A" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "<b>TF-01A-6</b><br>")
   (attr smd)
   (fp_text reference "REF**" (at -2.54 -5.024) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
