@@ -64,7 +64,7 @@
     (rotate (xyz 180 0 0))
   )
   (model "/Users/s/Desktop/nvf/scott-fork/NVF-Kicad-Resources/3dmodels/CM251X.STEP"
-    (offset (xyz 0.5 0 3))
+    (offset (xyz 0 0 8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
