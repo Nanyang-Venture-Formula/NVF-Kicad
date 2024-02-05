@@ -25,7 +25,7 @@
     (solder_mask_margin 0.102) (tstamp b26f6044-2b38-4ccf-9f4a-0a472c8b8275))
   (pad "2" thru_hole oval (at 5.95 0) (size 2.55 2.55) (drill 1.75) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp a847043a-2484-474d-8a0e-5f75db931ffe))
-  (model ":NVF_KICAD_DIR:3dmodels/3544-2.step"
+  (model ":NVF_KICAD_DIR:3dmodels/Fuse/Fuse-Holder/MCCQ-122.step"
     (offset (xyz -1.85 -0.85 2.3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

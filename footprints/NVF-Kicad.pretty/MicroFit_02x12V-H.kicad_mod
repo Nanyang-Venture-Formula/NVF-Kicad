@@ -103,12 +103,7 @@
   (pad "22" thru_hole circle (at 10.5 1.5) (size 1.5 1.5) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 3f497fa7-7004-4c74-b70c-093e56e0a230))
   (pad "23" thru_hole circle (at 13.5 1.5) (size 1.5 1.5) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 04dbe6cf-2284-4e50-94c5-2e86d4444d0d))
   (pad "24" thru_hole circle (at 16.5 1.5) (size 1.5 1.5) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 5ba7e722-0344-4531-9910-3a27d1ad64ed))
-  (model "${KICAD7_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical.wrl"
-    (offset (xyz -16.5 1.5 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model ":NVF_KICAD_DIR:3dmodels/43045-2427.step"
+  (model ":NVF_KICAD_DIR:3dmodels/Molex/Microfit/43045-2427.step"
     (offset (xyz 0 0 5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

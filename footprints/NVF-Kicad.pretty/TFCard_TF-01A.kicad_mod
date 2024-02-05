@@ -73,7 +73,7 @@
     (solder_mask_margin 0.102) (tstamp 458aac2b-cc7a-4b58-b685-c3d4cf79a055))
   (pad "10" smd rect (at 7.8362 3.3 90) (size 2.4384 1.4478) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 11c28bc7-89f2-4e8f-94e7-25dcd7981ddb))
-  (model "/Users/s/Desktop/nvf/scott-fork/NVF-Kicad-Resources/3dmodels/TF-01A.step"
+  (model ":NVF_KICAD_DIR:3dmodels/SD/TF-01A.step"
     (offset (xyz -1 -3.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
