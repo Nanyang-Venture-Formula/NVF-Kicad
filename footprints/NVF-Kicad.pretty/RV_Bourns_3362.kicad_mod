@@ -44,7 +44,7 @@
     (solder_mask_margin 0.102) (tstamp 0febaf41-bdec-4df2-ba9e-6b39ba2b2be3))
   (pad "3" thru_hole circle (at 2.54 0) (size 1.222 1.222) (drill 0.714) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp bc12e646-f795-48a2-a006-b1aaf13ac7d9))
-  (model ":NVF_KICAD_DIR:3dmodels/3362P-1-103LF.step"
+  (model "${NVF_KICAD_DIR}/3dmodels/Potentiometer/3362P-1-103LF.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
