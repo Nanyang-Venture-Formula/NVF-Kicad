@@ -4468,7 +4468,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -3.81 -2.54 0)
+			(at -3.81 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +4476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -3.81 -2.54 0)
+			(at -3.81 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -3.81 -2.54 0)
+			(at -3.81 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5293,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 6.35 0)
+				(at -11.43 8.89 0)
 				(length 2.54)
 				(name "V1"
 					(effects
@@ -5311,7 +5311,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 3.81 0)
+				(at -11.43 6.35 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5329,7 +5329,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 1.27 0)
+				(at -11.43 3.81 0)
 				(length 2.54)
 				(name "V2"
 					(effects
@@ -5347,7 +5347,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -1.27 0)
+				(at -11.43 1.27 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5365,7 +5365,43 @@
 				)
 			)
 			(pin input line
+				(at -11.43 -1.27 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -11.43 -3.81 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -6.35 0)
 				(length 2.54)
 				(name "CAN_L"
 					(effects
@@ -5383,7 +5419,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -6.35 0)
+				(at -11.43 -8.89 0)
 				(length 2.54)
 				(name "CAN_H"
 					(effects

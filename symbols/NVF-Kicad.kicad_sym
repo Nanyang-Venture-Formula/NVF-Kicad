@@ -844,7 +844,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MC14070B"
 			(at -17.78 -12.7 0)
 			(effects
 				(font
@@ -852,16 +852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -17.78 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at -17.78 -12.7 0)
 			(effects
 				(font
@@ -870,7 +861,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.farnell.com/datasheets/1878544.pdf"
+			(at -17.78 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "QUAD XOR Gate"
 			(at -17.78 -12.7 0)
 			(effects
 				(font
@@ -919,9 +919,9 @@
 				(alternate "1A" input line)
 			)
 			(pin input line
-				(at 10.16 1.27 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
-				(name "IN_1D"
+				(name "OUTC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -935,12 +935,12 @@
 						)
 					)
 				)
-				(alternate "4A" input line)
+				(alternate "3Y" input line)
 			)
 			(pin input line
-				(at 10.16 -8.89 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
-				(name "IN_1C"
+				(name "OUTD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -954,12 +954,12 @@
 						)
 					)
 				)
-				(alternate "3A" input line)
+				(alternate "4Y" input line)
 			)
 			(pin input line
-				(at 10.16 -6.35 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
-				(name "IN_2C"
+				(name "IN_1D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -973,12 +973,12 @@
 						)
 					)
 				)
-				(alternate "3B" input line)
+				(alternate "4A" input line)
 			)
 			(pin input line
-				(at 10.16 -3.81 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
-				(name "OUTC"
+				(name "IN_2D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -992,7 +992,7 @@
 						)
 					)
 				)
-				(alternate "3Y" input line)
+				(alternate "4B" input line)
 			)
 			(pin input line
 				(at 10.16 6.35 180)
@@ -1128,9 +1128,9 @@
 				(alternate "GND" power_in line)
 			)
 			(pin input line
-				(at 10.16 3.81 180)
+				(at 10.16 -8.89 180)
 				(length 2.54)
-				(name "IN_2D"
+				(name "IN_1C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1144,12 +1144,12 @@
 						)
 					)
 				)
-				(alternate "4B" input line)
+				(alternate "3A" input line)
 			)
 			(pin input line
-				(at 10.16 -1.27 180)
+				(at 10.16 -6.35 180)
 				(length 2.54)
-				(name "OUTD"
+				(name "IN_2C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1163,7 +1163,7 @@
 						)
 					)
 				)
-				(alternate "4Y" input line)
+				(alternate "3B" input line)
 			)
 		)
 	)
